@@ -1,4 +1,4 @@
-import type { Partner } from '../lib/types';
+import type { Partner } from '../lib/schemeTypes';
 
 /* ============================================================
    Prototype partner data — LOCAL MOCK ONLY.

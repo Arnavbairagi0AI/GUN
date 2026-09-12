@@ -1,5 +1,5 @@
-import type { Criterion, Profile, SchemeMatch, SchemeRequirement, EligibilityStatus } from './types';
-import { INCOME_MIDPOINT_INR } from './types';
+import type { Criterion, Profile, SchemeMatch, SchemeRequirement, EligibilityStatus } from './schemeTypes';
+import { INCOME_MIDPOINT_INR } from './schemeTypes';
 import { SCHEMES } from '../data/schemes';
 
 /* ============================================================

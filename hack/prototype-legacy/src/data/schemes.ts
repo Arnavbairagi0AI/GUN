@@ -1,4 +1,4 @@
-import type { Scheme } from '../lib/types';
+import type { Scheme } from '../lib/schemeTypes';
 
 /* ============================================================
    Prototype scheme data — LOCAL MOCK ONLY.

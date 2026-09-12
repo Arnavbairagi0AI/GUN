@@ -1,4 +1,4 @@
-import type { SchemeTerms } from '../lib/types';
+import type { SchemeTerms } from '../lib/schemeTypes';
 
 /* ============================================================
    Frontend repayment math — standard reducing-balance EMI with a

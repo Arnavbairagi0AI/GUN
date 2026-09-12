@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: agon-agent_1-caddf810
+        working-directory: hack
     steps:
       - uses: actions/checkout@v4
 
@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: agon-agent_1-caddf810/package-lock.json
+          cache-dependency-path: hack/package-lock.json
 
       - name: Install
         run: npm ci
