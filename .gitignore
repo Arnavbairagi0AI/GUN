@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & OS junk
+*.log
+.DS_Store
+Thumbs.db
+
+# Caches
+.vite/
+.cache/
+.turbo/
+
+# Tool metadata (local only)
+.freebuff/
+
+# Editor
+.vscode/
+.idea/
